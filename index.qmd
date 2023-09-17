@@ -19,7 +19,7 @@ editor:
 
 ## Introduction
 
-This is an introduction to Kernel regression, which is a non-parametric
+SVM is an introduction to Kernel regression, which is a non-parametric
 estimator that estimates the conditional expectation of two variables
 which is random. The goal of a kernel regression is to discover the
 non-linear relationship between two random variables. To discover the
