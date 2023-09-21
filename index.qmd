@@ -17,7 +17,106 @@ editor:
     wrap: 72
 ---
 
-## Introduction
+## Summary of Articles
+
+Support vector machines (SVMs) are a powerful method for machine
+learning that can be used for data mining. There are several different
+SVM kernels, and it is not always clear which one is best for a certain
+job. The goal of this paper is to help data scientists pick the best SVM
+kernel for a given job. The authors looked at how well different SVM
+models did at classification, regression, and clustering, among other
+data mining tasks. They used both real-world data and data that they
+made up themselves. The article by Xu et al. aimed to see how well
+various SVM kernels did at data mining jobs. They found that SVM with
+the RBF kernel did the best job at most data mining tasks. However, they
+also found that the performance of the different SVM kernels relies on
+the task and data set. One problem with this study is that there were
+only a few data mining jobs carried out. **(5)**
+
+My next journal suggested a new SVM algorithm for jobs related to data
+mining. This is important since SVM is a powerful machine learning
+method, but they can be hard to train, especially on big datasets. The
+goal of this study is to suggest a new SVM algorithm that works better
+for data mining. They came up with a new SV algorithm that is made for
+data mining jobs. The program uses several methods to improve how well
+SVM training works. They tested how well their new SVM algorithm did at
+classification, regression, and grouping, among other tasks in data
+mining. They found that their new SVM algorithm was better at most data
+mining jobs than other SVM algorithms. But this algorithm has a weakness
+in that it is harder to understand than other SVM algorithms. **(3)**
+
+In addition, Zhou et al wrote about deep mining of electronic medical
+data using support vector machines to predict the prognosis of severe,
+acute myocardial infarction. The authors talked about how the MIMIC-3
+database is used to find the 13 markers for heart attack cases. They
+compared SVM algorithms and found that the model was about 92% accurate.
+They use this model to pull out certain features from the EMR and
+identify which patients will have a MI. They said that this helps
+doctors figure out the classification regression parts of a disease
+outlook. **(6)**
+
+My next piece was about how Fouodo et al and others used support vector
+machines for survival analysis with R. They used the survivalSVM package
+to do three different kinds of survival analysis. They used both
+regression and ranking, which is a mix of the two. The next way to find
+the constraints was to use regression followed by Cox proportional
+hazard models. They stated that the SVM worked about as well as other
+methods on the datasets they used. So, this R package makes it quick and
+easy to find out how likely a patient is to live. **(2)**
+
+Another article was called "Using Support Vector Machines for Diabetes
+Mellitus Classification from Electronic Medical Records." The goal of
+this work is to show how support vector machines (SVMs) in electronic
+medical records (EMRs) can be used to classify diabetes mellitus. This
+study looked at how well SVMs can classify diabetes because they have
+been good at diagnosing other diseases from electronic medical records
+(EMRs). The writers used EMRs from both people with and without diabetes
+to train an SVM model. During preparation, noise and outliers were first
+taken out of the EMRs. The SVM model was then trained with the help of
+guided learning. **(1)**
+
+The next journal discussed a way to predict hospital readmissions using
+support vector machines. The goal of this study is to make a support
+vector machine (SVM) model that can predict a patient&#39;s return to
+the hospital. The importance was that going back to the hospital is a
+deadly problem in health care, and it can be expensive for patients. A
+reliable predictor of hospital readmission could help hospitals find
+people who are at risk and give them treatment to keep them from going
+back to the hospital. A solution is that a collection of electronic
+medical records (EMRs) was used to train an SVM model. First, during
+preprocessing, abnormalities were taken out of the EMRs. The SVM model
+was then trained with the help of guided learning and separated the
+information into two groups. With the SVM model, this included
+readmitted patients who had to go back to the hospital. **(4)**
+
+**References**
+
+**(1)** Adeoye, Abiodun O., et al. Utilizing Support Vector Machines for
+Diabetes Mellitus Classification from Electronic Medical Records.
+International Journal of Advanced Computer Science and Information
+Technology (IJACSIT), vol. 11, no. 10, 2021, pp. 102-114.
+
+**(2)** Fouodo, Cesaire, et al. Support Vector Machines for Survival
+Analysis with R. R Journal, vol. 14, no. 2, 2022, pp. 92-107.
+
+**(3)** Hu, Xiangfen, Wei Huang, and Qiang Wu. A New Support Vector
+Machine Algorithm for Data Mining.&quot; Knowledge-Based Systems, vol.
+112, 2016, pp. 118-128.
+
+**(4)** Ismail, Gaber A., et al. An Approach Using Support Vector
+Machines to Predict Hospital Readmission.&quot; Journal of Medical
+Systems, vol. 44, no. 9, 2020, pp. 1-10.
+
+**(5)** Xu, Fei, Lihong Li, and Zhihua Zhou. SVM Kernels for Data
+Mining: A Comparative Study.&quot; Proceedings of the 2010 SIAM
+International Conference on Data Mining (SDM), 2010, 585-596.
+
+**(6)** Zhou, Xingyu, et al. Using Support Vector Machines for Deep
+Mining of Electronic Medical Records in Order to Predict Prognosis of
+Severe, Acute Myocardial Infarction. Frontiers in Cardiovascular
+Medicine, vol. 10, 2023, p.918.
+
+**Introduction**
 
 SVM is an introduction to Kernel regression, which is a non-parametric
 estimator that estimates the conditional expectation of two variables
@@ -82,6 +181,6 @@ ggplot1 = murders %>% ggplot(mapping = aes(x=population/10^6, y=total))
 
 ### Statistical Modeling
 
-### Conlusion
+### Conclusion
 
 ## References
