@@ -1,41 +1,12 @@
 
-SVM in Data Mining EHRs
+SVM in Data Mining of EHRs
 Brad Lipson
 
 PUBLISHED
 August 22, 2023
 
 Introduction
-This is an introduction to Kernel regression, which is a non-parametric estimator that estimates the conditional expectation of two variables which is random. The goal of a kernel regression is to discover the non-linear relationship between two random variables. To discover the non-linear relationship, kernel estimator or kernel smoothing is the main method to estimate the curve for non-parametric statistics. In kernel estimator, weight function is known as kernel function (Efromovich 2008). Cite this paper (Bro and Smilde 2014). The GEE (Wang 2014).
 
-Methods
-.
+ Support Vector Machines (SVM) are a great way to mine data in Electronic Medical Records (EMR). You can use them to find patterns in the data that might be hard to find with regular statistical methods. SVMs can also be used to make models that can use new data to make accurate predictions. It is important to keep in mind, though, that SVMs can be hard to train, especially on big datasets. SVMs can also be responsive to how the SVM kernel and hyperparameters are chosen. Once the SVM model has been trained, it can be used to guess what will happen with new data. For example, a model could be used to figure out how likely it is that a patient will get a certain illness or what will happen to a patient who already has that disease. Before you can use SVMs for data mining in EMRs, you need to prepare the data since the noise and outliers should be taken out of the data. It is also important to feature engineer the data, which will help make new features that may be more useful for the SVM model.
 
-Analysis and Results
-
-Data and Vizualisation
-
-Code
-Code
-state	abb	region	population	total
-Alabama	AL	South	4779736	135
-Alaska	AK	West	710231	19
-Arizona	AZ	West	6392017	232
-Arkansas	AR	South	2915918	93
-California	CA	West	37253956	1257
-Colorado	CO	West	5029196	65
-Code
-
-
-Statistical Modeling
-Conlusion
-References
-Bro, Rasmus, and Age K Smilde. 2014. “Principal Component Analysis.” Analytical Methods 6 (9): 2812–31.
-Efromovich, S. 2008. Nonparametric Curve Estimation: Methods, Theory, and Applications. Springer Series in Statistics. Springer New York. https://books.google.com/books?id=mdoLBwAAQBAJ.
-R Core Team. 2019. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing. https://www.R-project.org.
-Wang, Ming. 2014. “Generalized Estimating Equations in Longitudinal Data Analysis: A Review and Recent Developments.” Advances in Statistics 2014.
-
-More information:
-- [GitHub](https://happygitwithr.com/index.html)
-- [Video1 RStudio connection to GitHub](https://www.youtube.com/watch?v=MdmnE3AnkQE)
-- [Video2 RStudio connection to GitHub](https://www.youtube.com/watch?v=jN6tvgt3GK8)
+    SVMs can be used to get useful information from the data and to make models that can improve the care of patients. Here are some more reasons why using SVMs for data mining in EMRs is helpful in the clinical setting.  SVMs can determine a model to predict which patients might survive a severe illness in the hospital. This is important for data mining in EMRs, where the data is often complicated since SVMs can handle noise and errors well. This is important for data mining in EMRs because the data may have errors or missing data. Also, models that are easy to understand can be made with SVMs which is important to medical providers so they can explain it to patients and their family.  This is important for data mining in EMRs because it would be helpful to know how the models work, so we can have evidence to support the results. Overall, SVMs are very helpful tools for mining data in EMRs since you get useful information from the data to make models that can improve the care of patients. This can assist in predicting those patients at risk for mortality or death in the Intensive Care Unit (ICU) which are the sickest of the patients.
