@@ -89,6 +89,39 @@ was then trained with the help of guided learning and separated the
 information into two groups. With the SVM model, this included
 readmitted patients who had to go back to the hospital. **(4)**
 
+SVM was used by Vieira et al. to divide data into two groups. The
+algorithm maps the raw data to a high-dimensional feature space, where a
+linear classification surface is made. The SVM method then tries to find
+the best hyperplane that separates the two types of data by the most.
+The margin is the distance between the hyperplane and the data points in
+each group that are closest to the hyperplane. The SVM algorithm also
+uses a kernel function to move the raw data into a space with more
+dimensions, where it is easier to separate. The kernel function is a
+piece of math that figures out how similar two data points are to each
+other. SVM also uses regularization to control the trade-off between
+making the margin as big as possible and making the classification
+mistake as small as possible. The SVM algorithm learns from a set of
+labeled data, where each data point has a label that tells what group it
+belongs to. Once the SVM algorithm has been taught, it can be used to
+put new data points that have not been labeled into one of the two
+groups. **(7)**
+
+Yang et al. evaluated the performance a version of GAN called
+conditional medical GAN (C-med GAN) could determine who would die among
+ICU patients. The study used data from the Medical Information Mart for
+Intensive Care III (MIMIC-III) database and compared the success of the
+C-med GAN with some baseline models, such as the simplified acute
+physiology score II (SAPS II), the support vector machine (SVM), and the
+multilayer perceptron (MLP). The dataset was split into three sizes, and
+a 5-fold grid search cross-validation process was used to find the best
+hyperparameters and then the best model selection for the C-med GAN.
+Area under the precision-recall curve (PR-AUC), area under the receiver
+operating characteristic curve (ROC-AUC), and F1 score were used to
+measure the C-med GAN's accuracy. The study came up with a helpful
+method to use SAPS II results to directly estimate how long a patient
+will live. The results of this study could be used in intensive care to
+make it easier to predict mortality in the ICU. **(8)**
+
 **References**
 
 **(1)** Adeoye, Abiodun O., et al. Utilizing Support Vector Machines for
@@ -115,6 +148,18 @@ International Conference on Data Mining (SDM), 2010, 585-596.
 Mining of Electronic Medical Records in Order to Predict Prognosis of
 Severe, Acute Myocardial Infarction. Frontiers in Cardiovascular
 Medicine, vol. 10, 2023, p.918.
+
+**(7)** Vieira, S.M., Mendonça, L. F., Farinha, G. J., & Sousa, J. M. C.
+(2013). Modified binary PSO for feature selection using SVM applied to
+mortality prediction of septic patients. *Applied Soft
+Computing*, *13*(8), 3494--3504.
+<https://doi.org/10.1016/j.asoc.2013.03.021>
+
+**(8)** Yang, Zou, H., Wang, M., Zhang, Q., Li, S., & Liang, H. (2023).
+Mortality prediction among ICU inpatients based on MIMIC-III database
+results from the conditional medical generative adversarial
+network. *Heliyon*, *9*(2), e13200--e13200.
+<https://doi.org/10.1016/j.heliyon.2023.e13200>
 
 **Introduction**
 
